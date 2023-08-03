@@ -1,11 +1,11 @@
-About arm-mango
-===============
+About arm-mango-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/arm-mango-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ARM-software/mango
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/arm-mango-feedstock/blob/main/LICENSE.txt)
 
 Summary: Parallel bayesian optimization over complex search spaces
 
