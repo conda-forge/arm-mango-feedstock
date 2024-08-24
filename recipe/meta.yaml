@@ -1,5 +1,5 @@
 {% set name = "arm-mango" %}
-{% set version = "1.4.3" %}
+{% set version = "1.5.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 734ebe2476bf007bfe480821ec49b322dd4ca2da88210f56796bfffcf57ff3fa
+  sha256: b6c4d749996c9bdf4a1b19b403e3b9da5b1cbe6064196d5dc8334b97c5301bbc
 
 build:
   noarch: python
