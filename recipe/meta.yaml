@@ -1,5 +1,5 @@
 {% set name = "arm-mango" %}
-{% set version = "1.5.1" %}
+{% set version = "1.6.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,12 +8,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: b6c4d749996c9bdf4a1b19b403e3b9da5b1cbe6064196d5dc8334b97c5301bbc
+  sha256: 5bb27cce636ace6d9c0272f7c188fd6baf403658e8b9ab65700b215f701e93f6
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
@@ -25,7 +25,7 @@ requirements:
     - numpy >=1.17.0
     - scipy >=1.4.1
     - scikit-learn >=0.21.3
-    - tqdm >=4.36.1  
+    - tqdm >=4.36.1
 
 test:
   imports:
